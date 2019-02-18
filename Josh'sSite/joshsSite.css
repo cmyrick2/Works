@@ -1,0 +1,223 @@
+body.indexBody /*Index Body Style*/
+{
+    width: 650px;
+    margin: 0 auto;
+    padding: 15px 25px;
+    background-color: darkgrey;
+}
+body.aboutBody /*About Body Style*/
+{
+    background-color: darkgrey;
+}
+body.portfolioBody /*Portfolio Body Style*/
+{
+    margin: 200px;
+    padding: 15px 25px;
+    background-color: darkgrey;
+}
+body.contactBody /*Contact Body Style*/
+{
+    width: 650px;
+    margin: 0 auto;
+    padding: 15px 25px;
+    background-color: darkgrey;
+
+}
+ul.menu /*Navigation Bar UL style*/
+{
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+li.menuWrap /*Navigation Bar LI Style*/
+{
+    float: left;
+}
+
+li a.menuItem /*Navigation Bar LI  HyperLink Style*/
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a.menuItem:hover:not(#active) /*Navigation Bar LI  HyperLink Not Active Hover Style*/
+{
+    background-color: #787878;
+}
+
+#active /*Navigation Bar LI  Active Style*/
+{
+    background-color: #AD102F;
+}
+
+article.indexArticle1 /*Index Article Style 1*/
+{
+    text-align: right;
+    background-color: black;
+    width: 100%;
+    margin-top: 400px;
+    color: lightgray;
+}
+article.aboutArticle1 /*About Article Style 1*/
+{
+    text-align: right;
+    background-color: black;
+    width: 100%;
+    margin-top: 400px;
+    color: lightgray;
+}
+
+article.contactArticle1 /*Contact Article Style 1*/
+{
+    text-align: right;
+    background-color: black;
+    width: 100%;
+    margin-top: 400px;
+    color: lightgray;
+}
+
+p.indexPName1 /*Index Paragraph Head*/
+{
+    padding-right: 50px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 10px 10px 10px darkslategray;
+}
+
+p.indexPInfo1 /*Index Paragraph Info*/
+{
+    padding-right: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 10px 10px 10px darkslategray;
+}
+
+p.aboutPName1 /*About Paragraph Head*/
+{
+    padding-right: 50px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 10px 10px 10px darkslategray;
+}
+
+p.aboutPInfo1 /*About Paragraph Info*/
+{
+    padding-right: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 10px 10px 10px darkslategray;
+}
+
+
+
+p.contactPName1 /*Contact Paragraph Head*/
+{
+    padding-right: 50px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 10px 10px 10px darkslategray;
+}
+
+p.contactPInfo1 /*Contact Paragraph Info*/
+{
+    padding-right: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 10px 10px 10px darkslategray;
+}
+
+
+
+.copyrightFooter/*Styling for footers across all pages*/
+{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    position: fixed;
+    height: 45px;
+    vertical-align: text-top;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#slideshow/*Slideshow div styling*/
+{
+
+    margin: auto;
+    opacity: 1;
+}
+
+.slideshow_img/*Slideshow image styling*/
+{
+    height: 300px;
+    width: 200px;
+}
+
+
+#tabs/*tabs styling within about page*/
+{
+    width: 400px;
+    height: 400px;
+    left: 38%;
+    top: 200px;
+    display: block;
+    position: absolute;
+    z-index: 6;
+    opacity: 1;
+}
+
+#Ajax /*Styling for portfolio Ajax*/
+{
+    font-size: 23px;
+
+}
+
+#AjaxBorder /*Border for portfolio Ajax*/
+{
+    border-bottom: 4px solid black;
+}
+
+#AjaxImg /*Styling for images within portfolio Ajax*/
+{
+    height: 300px;
+    width: 300px;
+}
+
+#cycleHeader /*Styling for the cycle function header within portfolio html*/
+{
+    left: 50%;
+    text-transform: capitalize;
+    font-size: 33px;
+    border-bottom: 4px solid black;
+    padding-bottom: 10px;
+}
+
+#showcaseHeader/*Styling for the showcase header within portfolio html*/
+{
+    left: 50%;
+    font-size: 33px;
+    text-transform: capitalize;
+    border-bottom: 4px solid black;
+}
+
+#cycleDescription/*Styling for Cycle Description withing portfolio html*/
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+
